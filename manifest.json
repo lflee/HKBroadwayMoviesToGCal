@@ -1,0 +1,7 @@
+{
+  "name": "HKBroadwayMoviesToGCal",
+  "short_name": "HKBroadwayMoviesToGCal",
+  "description": "One click add a movie at HK Broadway cinema line to Google Calendar",
+  "start_url": "/",
+  "display": "standalone"
+}
