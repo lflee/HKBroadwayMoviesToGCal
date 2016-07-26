@@ -1,7 +1,21 @@
 {
-  "name": "HKBroadwayMoviesToGCal",
-  "short_name": "HKBroadwayMoviesToGCal",
-  "description": "One click add a movie at HK Broadway cinema line to Google Calendar",
+  "manifest_version": 2,
+
+  "name": "加依場戲落 Google Calendar 度, Add Movie To GCal",
+  "short_name": "Add Movie To GCal",
+  "description": "One click add a movie at HK Broadway cinema line to Google Calendar, example - http://www.cinema.com.hk/tc/movie/details/8983",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "ic_launcher.png",
+    "default_popup": "popup.html"
+  },
+
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ],
+
   "start_url": "/",
   "display": "standalone"
 }
